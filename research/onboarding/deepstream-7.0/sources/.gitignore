@@ -1,3 +1,4 @@
+# sample apps
 /apps/sample_apps/deepstream-test1/deepstream-test1-app
 /apps/sample_apps/deepstream-test1/deepstream_test1_app.o
 /apps/sample_apps/deepstream-test2/deepstream-test2-app
@@ -7,3 +8,7 @@
 /apps/sample_apps/deepstream-test4/deepstream-test4-app
 /apps/sample_apps/deepstream-test4/deepstream_test4_app.o
 /apps/sample_apps/deepstream-test4/deepstream_test4_yml_parse.o
+
+# supervisord
+/apps/supervisord.log
+/apps/supervisord.pid
