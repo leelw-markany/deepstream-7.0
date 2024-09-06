@@ -10,8 +10,8 @@ export DISPLAY=$(grep -oP "(?<=nameserver ).+" /etc/resolv.conf):0
 xhost +
 sudo rm -rf /tmp/.X11-unix
 
-sudo rm -f deepstream-7.0/sources/apps/sample_apps/deepstream-app/supervisord.log
-sudo rm -f deepstream-7.0/sources/apps/sample_apps/deepstream-app/supervisord.pid
+sudo rm -f deepstream-7.0/sources/apps/supervisord.log
+sudo rm -f deepstream-7.0/sources/apps/supervisord.pid
 
 docker run -d \
   --gpus all \
