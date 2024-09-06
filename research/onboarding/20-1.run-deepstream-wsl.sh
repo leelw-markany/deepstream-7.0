@@ -17,8 +17,6 @@ docker run -it \
   --name=deepstream \
   -v /tmp/.X11-unix/:/tmp/.X11-unix \
   -e DISPLAY=$DISPLAY \
-  -e CUDA_CACHE_DISABLE=0 \
-  --device /dev/snd \
   deepstream:7.0
 
 
