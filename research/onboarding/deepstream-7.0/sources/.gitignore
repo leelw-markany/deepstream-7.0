@@ -11,9 +11,12 @@
 /apps/sample_apps/deepstream-test5/*.o
 
 # deepstream-app
-/apps/apps-common/src/deepstream-yaml/*.o
-/apps/apps-common/src/*.o
+/apps/sample_apps/deepstream-app/deepstream-app
 /apps/sample_apps/deepstream-app/*.o
+
+# apps-common
+/apps/apps-common/src/*.o
+/apps/apps-common/src/deepstream-yaml/*.o
 
 # supervisord
 /apps/supervisord.log
