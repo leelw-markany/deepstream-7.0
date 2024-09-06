@@ -31,7 +31,7 @@ tiled-display:
 
 
 source:
- csv-file-path: sources_4.csv
+ csv-file-path: __sources_4.csv
 
 sink0:
   enable: 1
