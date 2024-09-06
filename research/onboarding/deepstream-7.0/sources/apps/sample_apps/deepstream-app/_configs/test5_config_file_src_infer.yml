@@ -46,7 +46,7 @@ sink1:
   enable: 1
   #Type - 1=FakeSink 2=EglSink 3=File 4=UDPSink 5=nvdrmvideosink 6=MsgConvBroker
   type: 6
-  msg-conv-config: dstest5_msgconv_sample_config.yml
+  msg-conv-config: __msgconv.yml
   #(0): PAYLOAD_DEEPSTREAM - Deepstream schema payload
   #(1): PAYLOAD_DEEPSTREAM_MINIMAL - Deepstream schema payload minimal
   #(256): PAYLOAD_RESERVED - Reserved type
@@ -77,7 +77,7 @@ sink2:
 # sink type = 6 with disable-msgconv :  1
 message-converter:
   enable: 0
-  msg-conv-config: dstest5_msgconv_sample_config.yml
+  msg-conv-config: __msgconv.yml
   #(0): PAYLOAD_DEEPSTREAM - Deepstream schema payload
   #(1): PAYLOAD_DEEPSTREAM_MINIMAL - Deepstream schema payload minimal
   #(256): PAYLOAD_RESERVED - Reserved type
@@ -96,7 +96,7 @@ message-consumer0:
   config-file: <broker config file e.g. cfg_kafka.txt>
   subscribe-topic-list: <topic1>;<topic2>;<topicN>
   # Use this option if message has sensor name as id instead of index (0,1,2 etc.).
-  #sensor-list-file: dstest5_msgconv_sample_config.txt
+  #sensor-list-file: __msgconv.txt
 
 osd:
   enable: 1
