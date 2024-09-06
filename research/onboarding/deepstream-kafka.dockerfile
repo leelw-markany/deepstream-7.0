@@ -3,6 +3,7 @@ FROM nvcr.io/nvidia/deepstream:7.0-gc-triton-devel
 ENV LD_LIBRARY_PATH=/usr/local/lib/x86_64-linux-gnu${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
 # Install Apache Kafka
+RUN apt update -y
 RUN apt install -y openjdk-8-jdk
 #export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
