@@ -4,3 +4,6 @@
 /apps/sample_apps/deepstream-test2/deepstream_test2_app.o
 /apps/sample_apps/deepstream-test3/deepstream-test3-app
 /apps/sample_apps/deepstream-test3/deepstream_test3_app.o
+/apps/sample_apps/deepstream-test4/deepstream-test4-app
+/apps/sample_apps/deepstream-test4/deepstream_test4_app.o
+/apps/sample_apps/deepstream-test4/deepstream_test4_yml_parse.o

@@ -27,8 +27,8 @@ msgconv:
 
 msgbroker:
   proto-lib: /opt/nvidia/deepstream/deepstream/lib/libnvds_kafka_proto.so
-  conn-str: <host>;<port>
-  topic: <topic>
+  conn-str: localhost;9092
+  topic: quickstart-events
   sync: 0
 
 sink:
