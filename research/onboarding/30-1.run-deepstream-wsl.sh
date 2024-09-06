@@ -16,10 +16,10 @@ docker run -it \
   --net=host \
   --name=deepstream \
   -v /tmp/.X11-unix/:/tmp/.X11-unix \
-  -v ./deepstream-6.4/samples/models/Tracker/:/opt/nvidia/deepstream/deepstream-6.4/samples/models/Tracker \
-  -v ./deepstream-6.4/samples/models/peoplenet/:/opt/nvidia/deepstream/deepstream-6.4/samples/models/peoplenet \
-  -v ./deepstream-6.4/samples/models/actionrecognitionnet/:/opt/nvidia/deepstream/deepstream-6.4/samples/models/actionrecognitionnet \
-  -v ./deepstream-6.4/samples/models/bodypose3dnet/:/opt/nvidia/deepstream/deepstream-6.4/samples/models/bodypose3dnet \
+  -v ./deepstream-7.0/samples/models/Tracker/:/opt/nvidia/deepstream/deepstream-6.4/samples/models/Tracker \
+  -v ./deepstream-7.0/samples/models/peoplenet/:/opt/nvidia/deepstream/deepstream-6.4/samples/models/peoplenet \
+  -v ./deepstream-7.0/samples/models/actionrecognitionnet/:/opt/nvidia/deepstream/deepstream-6.4/samples/models/actionrecognitionnet \
+  -v ./deepstream-7.0/samples/models/bodypose3dnet/:/opt/nvidia/deepstream/deepstream-6.4/samples/models/bodypose3dnet \
   -v ./deepstream-6.4/samples/configs/deepstream-app/:/opt/nvidia/deepstream/deepstream-6.4/samples/configs/deepstream-app \
   -v ./deepstream-6.4/sources/includes/:/opt/nvidia/deepstream/deepstream-6.4/sources/includes \
   -v ./deepstream-6.4/sources/apps/:/opt/nvidia/deepstream/deepstream-6.4/sources/apps \
